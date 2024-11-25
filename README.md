@@ -66,4 +66,4 @@ See `requirements.txt` for detailed dependencies.
 
 ## License
 
-[Choose an appropriate license]
+MIT license
