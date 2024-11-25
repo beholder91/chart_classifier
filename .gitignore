@@ -21,13 +21,13 @@ wheels/
 *.egg
 
 # Model files and checkpoints
-final_model/
+# final_model/
 results/
 logs/
 *.pth
 *.pt
 *.bin
-*.safetensors
+# *.safetensors
 
 # Dataset
 data/charts/

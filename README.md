@@ -1,6 +1,6 @@
 # Chart Classification Model
 
-This project implements a deep learning model to classify whether an image contains a chart or not.
+This project implements a deep learning model to classify whether an image contains a chart or not. This can be useful for filtering out non-chart images from a large set of images, and focusing on the subtask of chart analysis, such as chart structure extraction, data extraction, etc.
 
 ## Project Structure
 
