@@ -18,7 +18,7 @@ chart_classifier/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/chart-classifier.git
+git clone https://github.com/beholder91/chart_classifier.git
 cd chart-classifier
 ```
 
@@ -28,8 +28,8 @@ pip install -r requirements.txt
 ```
 
 3. Prepare your data:
-- Place chart images in `data/charts/`
-- Place non-chart images in `data/non-charts/`
+- Place chart images in `data/dataset/charts/`
+- Place non-chart images in `data/dataset/non-charts/`
 
 ## Training
 
@@ -50,15 +50,6 @@ python inference.py
 - Base model: EfficientNet-B0
 - Input size: 224x224
 - Output: Binary classification (chart/non-chart)
-
-## Features
-
-- HuggingFace Trainer integration
-- Early stopping
-- TensorBoard logging
-- Mixed precision training
-- Checkpoint saving and loading
-- Detailed metrics tracking
 
 ## Requirements
 
