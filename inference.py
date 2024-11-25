@@ -141,7 +141,7 @@ def main():
         classifier = ChartClassifier()
         
         # 单张图像预测
-        image_path = "data/test_images/pie.png"  # 替换为你的图像路径
+        image_path = "data/test_images/table.png"  # 替换为你的图像路径
         if os.path.exists(image_path):
             label, confidence = classifier.predict_single(image_path)
             print(f"\n单张图像预测结果:")
