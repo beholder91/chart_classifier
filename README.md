@@ -28,13 +28,14 @@ cd chart-classifier
 pip install -r requirements.txt
 ```
 
-3. Prepare your data:
-- Place chart images in `data/dataset/charts/`
-- Place non-chart images in `data/dataset/non-charts/`
 
 ## Training
 
-To train the model:
+To train the model, prepare your data first:
+- Place chart images in `data/dataset/charts/`
+- Place non-chart images in `data/dataset/non-charts/`
+
+then run:
 ```bash
 python train.py
 ```
