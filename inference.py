@@ -3,7 +3,7 @@ import torch
 from PIL import Image
 from torchvision import transforms
 from models.model import TimmModelForImageClassification
-from config.config import config
+from config import config
 import glob
 from typing import Union, List, Tuple
 import time

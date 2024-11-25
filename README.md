@@ -6,12 +6,13 @@ This project implements a deep learning model to classify whether an image conta
 
 ```
 chart_classifier/
-├── config/              # Configuration files
-├── data/                # Data handling
-├── models/              # Model architecture
-├── trainer/             # Training logic
-├── utils/              # Utility functions
-└── inference.py        # Inference script
+├── config.py             # Configuration files
+├── data/            # Dataset and data processing
+├── models/          # Model architecture
+├── trainer/         # Training logic
+├── utils/           # Utility functions
+├── train.py         # Training script
+└── inference.py     # Inference script
 ```
 
 ## Setup

@@ -1,6 +1,6 @@
 import os
 import torch
-from config.config import config
+from config import config
 from data.dataset import DataModule
 from models.model import TimmModelForImageClassification
 from trainer.custom_trainer import CustomTrainer

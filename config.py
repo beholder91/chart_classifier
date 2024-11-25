@@ -22,7 +22,7 @@ class TrainingConfig:
     # 早停和检查点相关
     early_stopping_patience: int = 5
     early_stopping_threshold: float = 0.0001
-    save_total_limit: int = 7  # 大于 early_stopping_patience + 1
+    save_total_limit: int = early_stopping_patience + 2  # 大于 early_stopping_patience + 1
     save_steps: int = 100      # 每100步保存一次
     eval_steps: int = 100      # 每100步评估一次
     
@@ -32,7 +32,7 @@ class TrainingConfig:
     final_model_dir: str = "./final_model"
     
     # GPU相关
-    gpu_id: int = 0
+    gpu_id: int = 5
     
     # 日志相关
     logging_steps: int = 20
